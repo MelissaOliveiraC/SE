@@ -8,7 +8,7 @@ public class Main {
 	public static void main(String[] args) {
 		 
 		 Scanner entrada = new Scanner (System.in);
-		 int[] codigos= {1,2,3,04,5,6,7,8,9,10,11,12,13,14};
+		 int[] codigos= {0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 		 System.out.print("Digite o RA do Aluno: ");
 		 String aluno = entrada.nextLine();
 		 System.out.print("Digite o número de Livros a ser Emprestado: ");
