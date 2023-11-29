@@ -1,0 +1,284 @@
+!SESSION 2023-11-29 02:50:47.723 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/Pizzaria/.cache/jdt-language-server/data/home/runner/Pizzaria
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:50:58.620
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:00.819
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:01.315
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:01.322
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:01.516
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:01.517
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:01.612
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:01.617
+!MESSAGE Wait for AutoBuildOffJob end 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:01.618
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:01.619
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:01.620
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:01.621
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:01.921
+!MESSAGE Started org.eclipse.buildship.core 299ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:06.924
+!MESSAGE LoadingGradleVersionJob finished 4920ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:07.229
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:07.416
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:08.339
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:12.938
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-29 02:51:13.324
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to import projects
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:107)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:244)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Invalid project description.
+Contains: OK
+Contains: /home/runner/Pizzaria overlaps the workspace location: /home/runner/Pizzaria/.cache/jdt-language-server/data/home/runner/Pizzaria
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 -1 2023-11-29 02:51:13.409
+!MESSAGE Failed to import projects
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2023-11-29 02:51:13.409
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2023-11-29 02:51:13.409
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2023-11-29 02:51:13.409
+!MESSAGE /home/runner/Pizzaria overlaps the workspace location: /home/runner/Pizzaria/.cache/jdt-language-server/data/home/runner/Pizzaria
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:13.634
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:13.721
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:14.006
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:14.012
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:14.013
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:16.207
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:20.208
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:20.507
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:20.605
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:20.612
+!MESSAGE Validated 1. Took 3997 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:20.616
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:20.716
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:20.917
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:21.014
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:21.705
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:21.706
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:21.707
+!MESSAGE Validated 1. Took 292 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:48.436
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:48.605
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:49.519
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:49.521
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:49.612
+!MESSAGE begin problem for /Pizza.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:49.613
+!MESSAGE 1 problems reported for /Pizza.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-29 02:51:49.614
+!MESSAGE Offset > length: 1 > 0
+!STACK 0
+org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0
+	at org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)
+	at org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)
+	at org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)
+	at org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:858)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:246)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:152)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:130)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:285)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:249)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:117)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:49.616
+!MESSAGE Validated 2. Took 572 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:49.621
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:49.838
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:51.833
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:51.840
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:52.308
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:52.309
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:52.510
+!MESSAGE begin problem for /Pizza.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:52.521
+!MESSAGE 1 problems reported for /Pizza.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:52.523
+!MESSAGE Validated 2. Took 2282 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:52.624
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:52.628
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:52.711
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:53.408
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:53.409
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:53.513
+!MESSAGE begin problem for /Pizza.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:53.514
+!MESSAGE 1 problems reported for /Pizza.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:53.604
+!MESSAGE Validated 2. Took 491 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:54.008
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:54.104
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:54.205
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:55.016
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:55.105
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:55.833
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:55.847
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:56.037
+!MESSAGE begin problem for /Pizza.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:56.049
+!MESSAGE 1 problems reported for /Pizza.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:56.065
+!MESSAGE Validated 2. Took 557 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:56.805
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:51:57.306
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:53:04.217
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:53:04.310
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:53:04.321
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:53:04.410
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:53:04.417
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-29 02:53:04.435
+!MESSAGE >> document/completion
