@@ -1,4 +1,5 @@
-package com.mycompany.sistema.monitoria;
+package sistema_monitoria_refatorado;
+
 import java.awt.Dimension;
 import java.awt.FlowLayout;
 import javax.swing.JButton;
@@ -13,41 +14,41 @@ public class Tela extends JFrame {
     private String input;
 
     public Tela() {
-        tela_inicio();
+        initializeUI();
     }
 
-    private void tela_inicio() {
+    private void initializeUI() {
         setTitle("Venda - Funcionario");
         setLayout(new FlowLayout());
-        criarComponentes();
+        createComponents();
         setSize(700, 350);
-        setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setVisible(true);
     }
 
-    private void criarComponentes() {
-        JPanel buttonsPanel = criarPainelBotoes();
+    private void createComponents() {
+        JPanel buttonsPanel = createButtonsPanel();
         JScrollPane scrollPane = new JScrollPane(buttonsPanel);
         scrollPane.setPreferredSize(new Dimension(500, 300));
         add(scrollPane);
     }
 
-    private JPanel criarPainelBotoes() {
-        JPanel buttons = new JPanel();
-        buttons.setPreferredSize(new Dimension(400, 200));
+    private JPanel createButtonsPanel() {
+        JPanel buttonsPanel = new JPanel();
+        buttonsPanel.setPreferredSize(new Dimension(400, 200));
 
-        addButton(buttons, "Abacaxi");
-        addButton(buttons, "Bala");
-        addButton(buttons, "Cafe");
-        addButton(buttons, "Refrigerante");
+        addButton(buttonsPanel, "Abacaxi");
+        addButton(buttonsPanel, "Bala");
+        addButton(buttonsPanel, "Cafe");
+        addButton(buttonsPanel, "Refrigerante");
 
-        return buttons;
+        return buttonsPanel;
     }
 
     private void addButton(JPanel panel, String text) {
         JButton button = new JButton(text);
         button.addActionListener((ae) -> {
-            input = JOptionPane.showInputDialog("Coloque um valor que será somado ao valor padrao: ");
+            input = JOptionPane.showInputDialog("Coloque um valor que será somado ao valor padrão: ");
             // Lógica adicional conforme necessário
         });
         panel.add(button);
