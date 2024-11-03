@@ -26,7 +26,7 @@ class EmprestimoTest {
 
     /**
      * Testa a data de devolução com três itens (Partição de Equivalência).
-     * Verifica se a data de devolução considera o prazo mais longo entre os itens.
+       Verifica se a data de devolução considera o prazo mais longo entre os itens.
      */
     @Test
     void testCalculaDataDevolucaoComTresItens() {
@@ -38,7 +38,7 @@ class EmprestimoTest {
 
     /**
      * Testa o impacto de adicionar mais de dois itens ao empréstimo,
-     * verificando se o prazo é estendido (Análise de Valor Limite).
+       verificando se o prazo é estendido (Análise de Valor Limite).
      */
     @Test
     void testCalculaDataDevolucaoComMaisDeDoisItens() {
@@ -54,7 +54,7 @@ class EmprestimoTest {
 
     /**
      * Verifica se a data de devolução para cada item é corretamente configurada.
-     * Confere também se a data é igual à data prevista do empréstimo (Tabela de Decisão).
+       Confere também se a data é igual à data prevista do empréstimo (Tabela de Decisão).
      */
     @Test
     void testItensRecebemDataDevolucaoCorreta() {
@@ -67,7 +67,7 @@ class EmprestimoTest {
     }
 
     /**
-     * Testa a data de devolução usando limites específicos para o prazo do item.
+       Testa a data de devolução usando limites específicos para o prazo do item.
      */
     @Test
     void testDataDevolucaoComLimiteDePrazo() {
